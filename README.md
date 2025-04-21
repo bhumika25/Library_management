@@ -14,9 +14,9 @@ This project is a library management system that allows users to manage books, u
 3. Compile the project using the following commands:
 
 
-g++ -o server.exe Server.cpp Library.cpp Book.cpp User.cpp Transaction.cpp -lws2_32
-g++ client.cpp -o client -lws2_32
-g++ -o main.exe main.cpp Library.cpp Book.cpp User.cpp Transaction.cpp -lws2_32
+1. g++ -o server.exe Server.cpp Library.cpp Book.cpp User.cpp Transaction.cpp -lws2_32
+2. g++ client.cpp -o client -lws2_32
+3. g++ -o main.exe main.cpp Library.cpp Book.cpp User.cpp Transaction.cpp -lws2_32
 
 
 ## To Run the File
